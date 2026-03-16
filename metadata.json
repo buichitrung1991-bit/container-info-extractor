@@ -1,0 +1,5 @@
+{
+  "name": "Container Info Extractor",
+  "description": "Tra cứu thông tin container và trích xuất dữ liệu từ hình ảnh sử dụng Gemini AI.",
+  "requestFramePermissions": []
+}
