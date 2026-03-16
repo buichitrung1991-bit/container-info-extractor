@@ -1,7 +1,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 
 // Initialize the SDK. We use process.env.GEMINI_API_KEY which is replaced by Vite.
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY });
 
 export async function extractImageInfo(base64Image: string, mimeType: string) {
   try {
